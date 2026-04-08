@@ -52,7 +52,8 @@ public class PlayerMovement : MonoBehaviour
     private void MovePlayer()
     {
         movementeDirection = (orientation.forward * verticalInput) + (orientation.right * horizontalInput);
-        rb.velocity = new Vector3(movementeDirection.x * moveSpeed, rb.velocity.y, movementeDirection.z * moveSpeed);
+        //rb.velocity = new Vector3(movementeDirection.x * moveSpeed, rb.velocity.y, movementeDirection.z * moveSpeed);
+        rb.MovePosition(transform.position + movementeDirection * (moveSpeed * Time.deltaTime));
     }
     
     private void Jump()
