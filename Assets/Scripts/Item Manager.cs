@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 public class ItemManager : MonoBehaviour
 {
     [SerializeField] private GameObject[] items;
+    [SerializeField] private string nextSceneName;
 
     private bool winGame;
 
@@ -35,7 +36,7 @@ public class ItemManager : MonoBehaviour
     private void Win()
     {
         winGame = true;
-        SceneManager.LoadScene("WinScene");
+        SceneManager.LoadScene(nextSceneName);
     }
 
 

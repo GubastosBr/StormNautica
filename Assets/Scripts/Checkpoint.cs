@@ -11,6 +11,7 @@ public class Checkpoint : MonoBehaviour
     {
         if (other.gameObject.TryGetComponent(out ReviveSystem reviveSystem))
         {
+            AudioManager.Instance.PlaySound(AudioManager.Instance.checkpointSound);
             reviveSystem.spawnPosition = transform.position;
         }
     }

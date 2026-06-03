@@ -8,6 +8,7 @@ public class Killzone : MonoBehaviour
     {
         if(other.TryGetComponent(out ReviveSystem reviveSystem))
         {
+            AudioManager.Instance.PlaySound(AudioManager.Instance.deathSound);
             reviveSystem.RevivePlayer();
         }
     }

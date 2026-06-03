@@ -130,6 +130,7 @@ GameObject:
   - component: {fileID: 3848338562479597508}
   - component: {fileID: 1680450676233950074}
   - component: {fileID: 7402860979074073410}
+  - component: {fileID: 4491855591661848844}
   m_Layer: 0
   m_Name: Abyron
   m_TagString: Player
@@ -226,6 +227,19 @@ MonoBehaviour:
   animator: {fileID: 8439827984338838989}
   moveSpeed: 5
   jumpforce: 12
+--- !u!114 &4491855591661848844
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2133494219466972942}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b482e394cac8a642b25f508dc6218cd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spawnPosition: {x: 0, y: 0, z: 0}
 --- !u!1 &2728136972832025437
 GameObject:
   m_ObjectHideFlags: 0

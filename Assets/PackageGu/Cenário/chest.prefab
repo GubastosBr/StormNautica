@@ -10,7 +10,6 @@ GameObject:
   m_Component:
   - component: {fileID: 4584164746151946}
   - component: {fileID: 6236935051255132497}
-  - component: {fileID: 4455141636012348412}
   m_Layer: 0
   m_Name: chest
   m_TagString: Untagged
@@ -53,29 +52,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!65 &4455141636012348412
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1790542892760508}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 7.2622604, y: 5.301941, z: 5.941366}
+  m_Center: {x: 0.001136303, y: 2.1509705, z: 0.017595291}
 --- !u!1 &8121418708853927248
 GameObject:
   m_ObjectHideFlags: 0

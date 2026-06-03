@@ -10,7 +10,6 @@ GameObject:
   m_Component:
   - component: {fileID: 4630917670090206}
   - component: {fileID: 4332555450208801333}
-  - component: {fileID: -1581238941060099596}
   m_Layer: 0
   m_Name: barrel
   m_TagString: Untagged
@@ -53,29 +52,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!65 &-1581238941060099596
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1846729285161186}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 3.222467, y: 4.422554, z: 3.2255673}
+  m_Center: {x: -0.0027714998, y: 2.2112856, z: 0.004191908}
 --- !u!1 &5501827463964132216
 GameObject:
   m_ObjectHideFlags: 0

@@ -58,6 +58,7 @@ public class PlayerMovement : MonoBehaviour
     
     private void Jump()
     {
+        AudioManager.Instance.PlaySound(AudioManager.Instance.jumpSound);
         rb.AddForce(Vector3.up * jumpforce, ForceMode.Impulse);
     }
 

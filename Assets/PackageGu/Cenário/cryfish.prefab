@@ -12,7 +12,8 @@ GameObject:
   - component: {fileID: 33514397148522394}
   - component: {fileID: 23347039319613794}
   - component: {fileID: -6550621014013744361}
-  m_Layer: 0
+  - component: {fileID: 5187229026590853658}
+  m_Layer: 6
   m_Name: cryfish
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -99,9 +100,21 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 4.1279974, y: 3.0703332, z: 3.061624}
   m_Center: {x: 0, y: 1.5351666, z: 0}
+--- !u!114 &5187229026590853658
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1167464258822882}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4cb811bf1810d54fb4f58c25141fa46, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

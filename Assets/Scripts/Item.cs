@@ -15,6 +15,7 @@ public class Item : MonoBehaviour
     
     private void CollectItem()
     {
+        AudioManager.Instance.PlaySound(AudioManager.Instance.collectItem);
         Destroy(gameObject);
     }
 }
