@@ -334172,6 +334172,36 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 137209252788133352, guid: a47fdbe3572344a41b7d7976650682ba,
+        type: 3}
+      propertyPath: m_Bones.Array.data[0]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 137209252788133352, guid: a47fdbe3572344a41b7d7976650682ba,
+        type: 3}
+      propertyPath: m_Bones.Array.data[1]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 621771097758648953, guid: a47fdbe3572344a41b7d7976650682ba,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 15.581047
+      objectReference: {fileID: 0}
+    - target: {fileID: 621771097758648953, guid: a47fdbe3572344a41b7d7976650682ba,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 12.549805
+      objectReference: {fileID: 0}
+    - target: {fileID: 621771097758648953, guid: a47fdbe3572344a41b7d7976650682ba,
+        type: 3}
+      propertyPath: m_Center.x
+      value: -0.16322899
+      objectReference: {fileID: 0}
+    - target: {fileID: 621771097758648953, guid: a47fdbe3572344a41b7d7976650682ba,
+        type: 3}
+      propertyPath: m_Center.y
+      value: 2723.724
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: 1885160874394412, guid: a47fdbe3572344a41b7d7976650682ba, type: 3}
