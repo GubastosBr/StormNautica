@@ -7,6 +7,13 @@ public class Menu : MonoBehaviour
 {
     [SerializeField] private GameObject creditsPanel;
 
+
+    private void Start()
+    {
+        Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;
+    }
+
     public void LoadScene(string sceneName)
     {
         SceneManager.LoadScene(sceneName);

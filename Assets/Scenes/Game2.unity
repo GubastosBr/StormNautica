@@ -222078,22 +222078,22 @@ PrefabInstance:
     - target: {fileID: 7910970479463356513, guid: fb1db678cb51d4b81a52459ea957c397,
         type: 3}
       propertyPath: m_Size.x
-      value: 24.96125
+      value: 5.356413
       objectReference: {fileID: 0}
     - target: {fileID: 7910970479463356513, guid: fb1db678cb51d4b81a52459ea957c397,
         type: 3}
       propertyPath: m_Size.z
-      value: 18.060486
+      value: 15.392334
       objectReference: {fileID: 0}
     - target: {fileID: 7910970479463356513, guid: fb1db678cb51d4b81a52459ea957c397,
         type: 3}
       propertyPath: m_Center.x
-      value: 1.2593193
+      value: 0.2492361
       objectReference: {fileID: 0}
     - target: {fileID: 7910970479463356513, guid: fb1db678cb51d4b81a52459ea957c397,
         type: 3}
       propertyPath: m_Center.z
-      value: 4.0970154
+      value: 5.4310913
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
